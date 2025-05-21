@@ -9,7 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <link rel="shortcut icon" href="img/M.ico" />
+    <link rel="shortcut icon" href="img/M.png" />
 
     <title>Michael's Portfolio</title>
 
@@ -63,20 +63,17 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience"
+              >Experience</a
+            >
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education"
               >Education</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#coursework"
-              >Coursework</a
-            >
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests"
@@ -87,6 +84,7 @@
       </div>
     </nav>
 
+    <!-- About -->
     <div class="container-fluid p-0">
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -102,10 +100,15 @@
             <a href="mailto:michaelnunn3@gmail.com">michaelnunn3@gmail.com</a>
           </div>
           <p class="lead mb-5">
-            Student at the University of Florida studying Computer Science and
-            pursuing a minor in Sales Engineering. Actively seeking both
-            internship and full-time positions that entail practicing full stack
-            development and working in a collaborative team environment.
+            👋 Hi, I’m Michael — a software engineer passionate about solving
+            complex problems and building scalable, client-focused solutions. I
+            specialize in backend development with Python and Java, and have
+            experience creating microservices, SDKs, and designing clean,
+            well-documented APIs. I enjoy working closely with stakeholders to
+            design and deliver tailored products that make a real impact. I
+            thrive in cross-functional teams, love breaking down complex systems
+            into clear components, and take pride in writing clean, effective
+            code that solves real-world challenges.
           </p>
           <div class="social-icons">
             <a href="https://www.linkedin.com/in/michaelnunn3">
@@ -114,18 +117,97 @@
             <a href="https://github.com/michaelnunn3">
               <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.facebook.com/michael.nunn.1401">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/michaelnunn_">
-              <i class="fab fa-instagram"></i>
-            </a>
           </div>
         </div>
       </section>
-
       <hr class="m-0" />
 
+      <!-- Experience -->
+      <section
+        class="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="experience"
+      >
+        <div class="w-100">
+          <h2 class="mb-5">Experience</h2>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">Thought Machine</h3>
+              <div class="subheading mb-3">Client Facing Software Engineer</div>
+              <p>
+                Developed and deployed custom banking solutions using Python,
+                working directly with clients to interpret requirements and
+                deliver production-ready configurations. Led Agile ceremonies,
+                supported technical issue resolution, and contributed to SDK
+                improvements and cross-team collaboration.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">June 2022 – Present</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">CACI International Inc</h3>
+              <div class="subheading mb-3">Software Engineer</div>
+              <p>
+                Contributed to the modernization of legacy systems by building
+                micro-services and containerizing applications with Docker.
+                Maintained and enhanced Java-based systems, implemented CI/CD
+                pipelines, and collaborated across teams using Agile practices.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2021 – June 2022</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">CACI International Inc</h3>
+              <div class="subheading mb-3">Software Engineer Intern</div>
+              <p>
+                Assisted in the development of software for government
+                contracts, supporting engineering teams with Java programming,
+                testing, and feature implementation across large-scale systems.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2020 – August 2020</span>
+            </div>
+          </div>
+
+          <div
+            class="resume-item d-flex flex-column flex-md-row justify-content-between"
+          >
+            <div class="resume-content">
+              <h3 class="mb-0">University of Florida</h3>
+              <div class="subheading mb-3">
+                Teaching Assistant – Intro to Software Engineering
+              </div>
+              <p>
+                Supported over 150 students through assignment grading, in-class
+                instruction, and office hours, helping reinforce software
+                engineering principles and assisting the instructor with course
+                delivery.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2020 – May 2020</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="m-0" />
+
+      <!-- Education -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="education"
@@ -139,137 +221,17 @@
             <div class="resume-content">
               <h3 class="mb-0">University of Florida</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Computer and Information Science and Engineering</div>
-              <div>Minor in Sales Engineering</div>
-              <p>GPA: 3.2</p>
+              <div>Computer Science</div>
+              <div>w/ Minor in Sales Engineering</div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">August 2016 - December 2020</span>
-            </div>
-          </div>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Chatham High School</h3>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2012 - May 2016</span>
+              <span class="text-primary">2016 - 2020</span>
             </div>
           </div>
         </div>
       </section>
 
-      <hr class="m-0" />
-
-      <section
-        class="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="projects"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Projects</h2>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Fitness Tracker</h3>
-              <div class="subheading mb-3">
-                Mongo.db, Express.js, Angular.js, Node.js
-              </div>
-              <p>
-                Web application that implements CRUD operations using the MEAN
-                stack
-              </p>
-              <p>
-                Users can track their workouts through entries in a Mongo.db
-                database
-              </p>
-              <p>Can search and sort workouts based on preference</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Fall 2019</span>
-            </div>
-          </div>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Mentorship and Advocacy Matching Program</h3>
-              <div class="subheading mb-3">
-                Mongo.db, Express.js, Angular.js, Node.js
-              </div>
-              <p>
-                Created a web application using the MEAN stack and Agile Scrum
-                development processes
-              </p>
-              <p>
-                Developed an algorithm to match mentors/mentees based on similar
-                backgrounds and experiences
-              </p>
-              <p>
-                Worked with Ultimate Software as the Product manager in this
-                semester long project for the Software Engineering course to
-                ensure the app was created within the given specifications
-              </p>
-              <a href="http://mentorshipgroup2.herokuapp.com/">Project Link</a>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Spring 2019</span>
-            </div>
-          </div>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Google Page Rank Project</h3>
-              <div class="subheading mb-3">C++</div>
-              <p>
-                Implemented Googles PageRank algorithm to determine the
-                importance of webpages
-              </p>
-              <p>Analyzed network flow to represent the web as a graph</p>
-              <p>
-                Used of hash tables and adjacency matrices to rank the
-                importance of each URL
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Spring 2018</span>
-            </div>
-          </div>
-
-          <div
-            class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"
-          >
-            <div class="resume-content">
-              <h3 class="mb-0">Magic Square Sudoku Game</h3>
-              <div class="subheading mb-3">Java</div>
-              <p>
-                Worked on a team to create a game that allows users to play a
-                simplified version of Sudoku
-              </p>
-              <p>
-                Populated 2D arrays as various sized magic squares and removed
-                items for the user to guess
-              </p>
-              <p>
-                Created a friendly user interface to allow the user to easily
-                input their answers
-              </p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">Spring 2018</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr class="m-0" />
-
+      <!-- Skills -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="skills"
@@ -280,34 +242,28 @@
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-java"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <li class="list-inline-item">
               <i class="fab fa-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-java"></i>
             </li>
             <li class="list-inline-item">
               <i class="fab fa-git"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-github"></i>
+              <i class="fab fa-linux"></i>
             </li>
             <li class="list-inline-item">
-              <i class="far fa-file-word"></i>
+              <i class="fab fa-jira"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-docker"></i>
             </li>
           </ul>
 
-          <font size="3">Primary Languages: Java, C++, JavaScript</font>
+          <font size="3">Primary Languages: Python, Java</font>
           <p></p>
-          <font size="3">Other Tools: MS Office, Git, Pivotal Tracker</font>
+          <font size="3">Other Tools: Git, Linux, Jira, Docker</font>
           <p></p>
 
           <div class="subheading mb-3">Workflow</div>
@@ -316,70 +272,9 @@
               <i class="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum
             </li>
-          </ul>
-        </div>
-      </section>
-
-      <hr class="m-0" />
-
-      <section
-        class="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="coursework"
-      >
-        <div class="w-100">
-          <h2 class="mb-5">Relevant Coursework</h2>
-          <ul class="fa-ul mb-0">
             <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Applications of Discrete Structures
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Computational Linear Algebra
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Computational Numerical Analysis
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Data Structures and Agorithms
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Digital Logic and Computer Systems
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Engineering Economy
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Information and Database Systems 1
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Introduction to Computer Organization
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Introduction to Software Engineering
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Operating Systems
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Professional Communication for Engineers
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Programming Fundamentals 1 (Java)
-            </li>
-            <li>
-              <i class="fa-li fas fa-book-open"></i>
-              Programming Fundamentals 2 (C++)
+              <i class="fa-li fa fa-check"></i>
+              Waterfall
             </li>
           </ul>
         </div>
@@ -387,35 +282,25 @@
 
       <hr class="m-0" />
 
+      <!-- Interests -->
       <section
         class="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="interests"
       >
         <div class="w-100">
           <h2 class="mb-5">Interests</h2>
-          <p>
-            Apart from being a full time student, I enjoy spending a lot of time
-            outdoors. Living in Gainesville, Florida provides me with great
-            opportunity to explore many interesting outdoor activities (I mostly
-            enjoy being about an hour from the beach). I also enjoy learning
-            about topics outside my field of study. Some of the topics I am most
-            interested in include: space, technology, and the environment.
-          </p>
-          <p>
-            I am involved in student organization called Camp Kesem as a Summer
-            Camp Counselor. The University of Florida chapter of Camp Kesem
-            fundraises year round to send kids who's parents have been affected
-            by cancer to camp. Through various fundraising events and the camp
-            itself, Camp Kesem has earned a place among my favorite student
-            organizations
-          </p>
-          <p>
-            I am also involved in the University of Florida Chapter of Sigma Nu
-            (Epsilon Zeta). In addition to being a general member, I have taken
-            the initiative of serving the executive board for multiple terms.
-            Sigma Nu has provided me with outstanding leadership and team
-            building skills.
-          </p>
+          When I'm not working, I make sure to stay active and healthy—it's how
+          I balance a busy city life and stay energized. You could definitely
+          call me a coffee enthusiast; I'm always on the hunt for the best spots
+          in NYC (which I believe is the best city in the world). Lately I have
+          been challenging myself to read a book every month, focusing mostly on
+          fiction but also exploring non-fiction topics. I have a strong
+          interest in language and am actively studying Indonesian, which I find
+          incredibly rewarding. Traveling is another huge passion of mine; I've
+          been fortunate enough to explore around 12 countries so far, and I
+          love immersing myself in diverse cultures and collecting unique
+          stories from around the globe. And finally, I can't forget to mention
+          my cat, Stella.
         </div>
       </section>
     </div>
